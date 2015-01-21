@@ -1,0 +1,62 @@
+/* by Vitalij Murovejko */
+
+.bodystyle {
+
+}
+
+.stylebody{
+    padding: 15px;
+}
+
+.rowlinks {
+    background-color: #faf2cc;
+}
+
+.alignrighttxt {
+    text-align: end;
+}
+
+.fontchange {
+
+}
+/* start rotate */
+
+.spin {
+    display: inline-block;
+
+    /* Анимация */
+    -webkit-animation: spin 10s linear 0s infinite normal;
+    -moz-animation: spin 10s linear 0s infinite normal;
+    -o-animation: spin 10s linear 0s infinite normal;
+    animation: spin 10s linear 0s infinite normal;
+}
+    /* Задаём вращение */
+@-webkit-keyframes spin { from { -webkit-transform: rotate(0deg); }
+to { -webkit-transform: rotate(360deg); } }
+@-moz-keyframes spin { from { -moz-transform: rotate(0deg); }
+to { -moz-transform: rotate(360deg); } }
+@-o-keyframes spin { from { -o-transform: rotate(0deg); }
+to { -o-transform: rotate(360deg); } }
+@keyframes spin { from { transform: rotate(0deg); }
+to { transform: rotate(360deg); } }
+
+/* end rotate block */
+
+.imgshadow {
+    width: 150px;
+    height: 170px;
+    box-shadow: 0 0 5px;
+}
+
+/* popup */
+
+
+.rowbgr {
+    background-image: url("../image/earth1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    align-content: flex-end;
+    z-index: 2;
+    padding: 5px;
+    height: 484px;
+}
